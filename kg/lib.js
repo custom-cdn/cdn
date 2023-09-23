@@ -35,3 +35,7 @@ class KGHelper {
         return await this.jina_req('/schema/get')
     }
 }
+
+// bind to window
+
+window.KGHelper = KGHelper
