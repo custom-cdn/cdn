@@ -1,7 +1,3 @@
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
 var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 
 function getDefaultExportFromCjs (x) {
@@ -6259,13 +6255,13 @@ var get = get_1;
 var set = set_1;
 var toPath = toPath_1;
 
-function _interopDefaultLegacy$1 (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
-var debounce__default = /*#__PURE__*/_interopDefaultLegacy$1(debounce$1);
-var Heap__default = /*#__PURE__*/_interopDefaultLegacy$1(Heap);
-var get__default = /*#__PURE__*/_interopDefaultLegacy$1(get);
-var set__default = /*#__PURE__*/_interopDefaultLegacy$1(set);
-var toPath__default = /*#__PURE__*/_interopDefaultLegacy$1(toPath);
+var debounce__default = /*#__PURE__*/_interopDefaultLegacy(debounce$1);
+var Heap__default = /*#__PURE__*/_interopDefaultLegacy(Heap);
+var get__default = /*#__PURE__*/_interopDefaultLegacy(get);
+var set__default = /*#__PURE__*/_interopDefaultLegacy(set);
+var toPath__default = /*#__PURE__*/_interopDefaultLegacy(toPath);
 
 function _typeof(obj) {
   "@babel/helpers - typeof";
@@ -61825,6 +61821,5 @@ function ObjectsEditor(_a) {
         React.createElement(GraphDisplay, { elements: elements, graphInterface: graphInterface, schema: schema, refreshSchema: refreshSchema })));
 }
 
-exports.ObjectsEditor = ObjectsEditor;
-exports.SchemaEditor = SchemaEditor;
+export { ObjectsEditor, SchemaEditor };
 //# sourceMappingURL=index.js.map
